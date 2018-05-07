@@ -12,8 +12,10 @@ To run the container, just type: `docker run -t -d --name=speedtest -v /whatever
 
 The options included are:
 
-`-t`: To run in foreground mode (so it wont exit as soon as you run it)
-`-d`: To run in detached mode
+`-t`: To run the container in foreground mode (so it wont exit as soon as you run it)
+
+`-d`: To run the container in detached mode
+
 `-v`: To specify the path of the directory where log files will be saved.
 
   
